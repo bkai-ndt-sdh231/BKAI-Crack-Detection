@@ -53,9 +53,6 @@ This model is used in the research project:
 | **AP (0.5:0.95)** | **63.99%** |
 | **AP50** | **82.89%** |
 | **AP75** | **72.04%** |
-| APS | 3.96% |
-| APM | 11.47% |
-| APL | 70.67% |
 
 ---
 
@@ -66,9 +63,6 @@ This model is used in the research project:
 | **AP (0.5:0.95)** | **21.53%** |
 | **AP50** | **50.78%** |
 | **AP75** | **17.36%** |
-| APS | 0.15% |
-| APM | 0.72% |
-| APL | 30.04% |
 
 ---
 
@@ -89,35 +83,6 @@ This model is used in the research project:
 | **GT Crack** | 1 | 907 |
 
 📌 *High recall (0.998) indicates excellent ability to detect cracks.*
-
----
-
-## 📸 Example Visualization
-
-### **Example 1**
-**Input:**  
-<img src="examples/example1_input.png" width="45%">
-
-**Mask R-CNN Result:**  
-<img src="examples/example1_overlay.png" width="45%">
-
----
-
-### **Example 2**
-**Input:**  
-<img src="examples/example2_input.png" width="45%">
-
-**Mask R-CNN Result:**  
-<img src="examples/example2_overlay.png" width="45%">
-
----
-
-### **Example 3**
-**Input:**  
-<img src="examples/example3_input.png" width="45%">
-
-**Mask R-CNN Result:**  
-<img src="examples/example3_overlay.png" width="45%">
 
 ---
 
