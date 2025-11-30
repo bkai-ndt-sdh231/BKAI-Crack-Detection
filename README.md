@@ -100,3 +100,74 @@ print(outputs)  # instances.pred_boxes, instances.scores, instances.pred_masks, 
   url    = {https://github.com/bkai-ndt-sdh231/BKAI-Model-Mask-R-CNN}
 }
 
+## 📸 Example Visualization
+
+### Example 1  
+**Input**  
+<img src="examples/example1_input.png" width="45%">
+
+**Overlay (Mask R-CNN result)**  
+<img src="examples/example1_overlay.png" width="45%">
+
+---
+
+### Example 2  
+**Input**  
+<img src="examples/example2_input.png" width="45%">
+
+**Overlay (Mask R-CNN result)**  
+<img src="examples/example2_overlay.png" width="45%">
+
+---
+
+### Example 3  
+**Input**  
+<img src="examples/example3_input.png" width="45%">
+
+**Overlay (Mask R-CNN result)**  
+<img src="examples/example3_overlay.png" width="45%">
+
+---
+
+## 🧪 Training Details
+
+- **Batch size:** 2 (Colab GPU)  
+- **Learning rate:** 0.00015  
+- **Iterations:** 8,000  
+
+**Loss components:**
+- RPN objectness loss  
+- RPN localization loss  
+- ROI classification loss  
+- ROI bounding-box regression  
+- Mask binary cross-entropy  
+
+---
+
+## 🏗 Applications
+
+- Infrastructure monitoring  
+- Pavement/bridge crack inspection  
+- Construction quality control  
+- BIM + AI  
+- Post-earthquake damage assessment  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🔖 Citation
+
+```bibtex
+@misc{bkai2025-crack-maskrcnn,
+  title  = {BKAI – Mask R-CNN + ResNet50 for Concrete Crack Detection & Segmentation},
+  author = {Nguyen Dat Thanh},
+  year   = {2025},
+  url    = {https://github.com/bkai-ndt-sdh231/BKAI-Model-Mask-R-CNN}
+}
+
+
