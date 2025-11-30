@@ -32,7 +32,7 @@ This model is part of the *BKAI Smart Infrastructure Initiative*.
 
 | Metric            | Score   |
 |-------------------|---------|
-| **mAP (0.5:0.95)** | **63.99%** |
+| **mAP (0.5:0.95)**| **63.99%** |
 | **AP50**          | **82.89%** |
 | **AP75**          | **72.00%** |
 
@@ -40,16 +40,17 @@ This model is part of the *BKAI Smart Infrastructure Initiative*.
 
 | Metric            | Score   |
 |-------------------|---------|
-| **mAP (0.5:0.95)** | **21.53%** |
+| **mAP (0.5:0.95)**| **21.53%** |
 | **AP50**          | **50.77%** |
-
+| **AP75**          | **17.36%** |
 ### Classification (Crack / No Crack)
 
 | Metric        | Value  |
 |---------------|--------|
-| **F1-score**  | **0.991** |
-| **Accuracy**  | **98%**   |
-
+| **F1-score**  | **99.13%** |
+| **Recall**    |**99.89%**  |
+| **Precision** | **98.37%** |
+| **Accuracy**  | **98%**    |
 ---
 
 ## 📁 Files Included
